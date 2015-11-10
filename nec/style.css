@@ -1,0 +1,57 @@
+body{
+	
+}
+.g-fl-ar {
+	width: 100%;
+	height: 300px;
+}
+.g-fixed-left {
+	float:left;
+	width: 100px;
+	height: 100%;
+}
+
+.g-auto-right {
+	margin-left: 100px;
+	height: 100%;
+}
+
+.g-ar-fl {
+	width: 100%;
+	height: 300px;
+}
+.g-fixed-right {
+	float:right;
+	width: 100px;
+	height: 100%;
+}
+
+.g-auto-left {
+	margin-right: 110px;
+	height: 100%;
+}
+
+.g-fl-ma-fr {
+	width: 100%;
+	height: 300px;
+}
+
+.g-fl-ma-fr-l {
+	float: left;
+	width: 100px;
+	height: 100%;
+}
+
+.g-fl-ma-fr-r {
+	float: right;
+	width: 100px;
+	height: 100%;
+}
+
+.g-fl-ma-fr-m {
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 100%;
+}
+
+
