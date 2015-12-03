@@ -15,21 +15,23 @@ _.clone = function(obj) {
 	
 	if(typeof obj !== 'object') {
 		return obj;
-	} else if(obj == null) {
-		return null;
-	} else  {
-		var cloneobj;
-		if(Object.prototype.toString.call(obj) == '[object Array]') {
-			cloneobj = []
+	} else {
+		if(obj == null) {
+			return null
 		} else {
-			cloneobj = {}
+			var cloneobj;
+			if(Object.prototype.toString.call(obj) == '[object Array]') {
+				cloneobj = []
+			} else {
+				cloneobj = {}
+			}
+			for(var k in obj) {
+				cloneobj[k] = _.clone(obj[k])
+			}
+			return cloneobj;
 		}
-		
-		for(var k in obj) {
-			cloneobj[k] = _.clone(obj[k])
-		}
-		return cloneobj;
 	}
+	
 }
 
 _.humpStr = function(str) {
