@@ -1,9 +1,6 @@
-body{
-	
-}
 .g-fl-ar {
 	width: 100%;
-	height: 300px;
+	height: 30px;
 }
 .g-fixed-left {
 	float:left;
@@ -12,13 +9,13 @@ body{
 }
 
 .g-auto-right {
-	margin-left: 100px;
+	margin-left: 110px;
 	height: 100%;
 }
 
 .g-ar-fl {
 	width: 100%;
-	height: 300px;
+	height: 30px;
 }
 .g-fixed-right {
 	float:right;
@@ -33,7 +30,7 @@ body{
 
 .g-fl-ma-fr {
 	width: 100%;
-	height: 300px;
+	height: 30px;
 }
 
 .g-fl-ma-fr-l {
@@ -49,8 +46,8 @@ body{
 }
 
 .g-fl-ma-fr-m {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 110px;
+	margin-right: 110px;
 	height: 100%;
 }
 
