@@ -42,6 +42,11 @@ _.humpStr = function(str) {
 	return str;
 }
 
-// 
-
+// 模拟new
+_.newObject = function(f) {
+	var o = new Object();
+	o.__proto__ = f.prototype;
+	f.apply(o, Array.prototype.slice.call(arguments, 1))
+	return o;
+}
 
