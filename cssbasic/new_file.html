@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>去除display inline-block 的间距</title>
+		<style>
+			.space a {
+			    display: inline-block;
+			    padding: .5em 1em;
+			    background-color: #cad5eb;
+			}
+			.a {
+				display: inline-block;
+				height: 20px;
+				width:50px ;
+				background: blue;
+			}
+			fieldset {
+				display: inline-block;
+				background: red;
+				margin-left:-10px;
+			}
+			.space2 {
+				font-size: 0;
+			}
+			.space2 a{
+				display: inline-block;
+			    padding: .5em 1em;
+			    background-color: #cad5eb;
+				font-size:14px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="space">
+		    <a href="##">惆怅</a><a href="##">淡定</a>
+		    <a href="##">热血</a>
+		</div>
+		<div class="space2">
+		    <a href="##">惆怅</a>
+		    <a href="##">淡定</a>
+		    <a href="##">热血</a>
+		</div>
+		<input /> <input type="submit" />
+		<div class="a"></div><!--
+		--><div class="a"></div>
+		<div class="a"></div>
+		<fieldset></fieldset>
+		<fieldset></fieldset>
+		<fieldset></fieldset>
+	</body>
+</html>
