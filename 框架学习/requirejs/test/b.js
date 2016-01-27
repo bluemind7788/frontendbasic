@@ -1,4 +1,4 @@
-define(function(){
+define([],function(){
     console.log('b');
     //return 1;
 })
